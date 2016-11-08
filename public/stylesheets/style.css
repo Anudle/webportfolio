@@ -1,8 +1,54 @@
 body {
-  padding: 50px;
+
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
+
+p{
+  color: white;
+}
+/*#navbar{
+  position: fixed;
+}*/
+.parallax {
+    margin-top: -30px;
+
+    background-image: url("../images/winter.jpg");
+
+
+    min-height: 100vh;
+
+    background-attachment: fixed;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hometext{
+  position: absolute;
+  margin-top: 17vh;
+  margin-left: 2vw;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.about{
+  height:1000px;
+  background-color:white;
+  font-size:36px;
+}
+#galvanize{
+  color: #F7901E;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+#colorado{
+  color: #F1FAEE;
+}
+/*.logo{
+  background-image: url('../images/Logo_white.jpg');
+}*/
