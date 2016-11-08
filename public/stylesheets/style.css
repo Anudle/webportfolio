@@ -1,14 +1,17 @@
 body {
-
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
 
+
 p{
-  color: white;
+  color: black;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
 }
 /*#navbar{
   position: fixed;
@@ -19,7 +22,7 @@ p{
     background-image: url("../images/winter.jpg");
 
 
-    min-height: 100vh;
+    min-height: 105vh;
 
     background-attachment: fixed;
     /*background-position: center;*/
@@ -39,7 +42,7 @@ p{
 .about{
   height:1000px;
   background-color:white;
-  font-size:36px;
+
 }
 #galvanize{
   color: #F7901E;
@@ -48,6 +51,20 @@ p{
 }
 #colorado{
   color: #F1FAEE;
+}
+.aboutbox{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+  /*justify-content: center;*/
+}
+.profpic{
+  border-radius: 25px;
+  height: 90vh;
+  width: 40vw;
+  background-image: url("../images/profile.jpg");
+  background-repeat: no-repeat;
 }
 /*.logo{
   background-image: url('../images/Logo_white.jpg');
