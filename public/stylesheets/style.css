@@ -57,14 +57,23 @@ h1{
   margin-left: auto;
   margin-right: auto;
   width: 10vw;
+  border-right: 10%;
   /*justify-content: center;*/
 }
 .profpic{
-  border-radius: 25px;
+  margin-left: -5vw;
   height: 90vh;
   width: 40vw;
   background-image: url("../images/profile.jpg");
   background-repeat: no-repeat;
+  m
+}
+
+.abouttext{
+  width: 60vw;
+  text-align: center;
+  margin-left: -25vw;
+  margin-top: -40vh;
 }
 /*.logo{
   background-image: url('../images/Logo_white.jpg');
