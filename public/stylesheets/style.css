@@ -1,5 +1,9 @@
 body {
   font-family: 'Oswald', sans-serif;
+  min-width: 100vw;
+}
+nav{
+  min-width: 100vw;
 }
 
 a {
@@ -13,16 +17,13 @@ p{
 h1{
   font-family: 'Oswald', sans-serif;
 }
-/*#navbar{
-  position: fixed;
-}*/
-.parallax {
-    margin-top: -30px;
 
+.parallax {
+    overflow: hidden;
     background-image: url("../images/winter.jpg");
 
-
-    min-height: 105vh;
+    width: 110vw;
+    min-height: 110vh;
 
     background-attachment: fixed;
     /*background-position: center;*/
@@ -32,49 +33,75 @@ h1{
 
 #hometext{
   position: absolute;
-  margin-top: 17vh;
-  margin-left: 2vw;
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  font-size: 70px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 200vh;
+  min-width: 110vw;
+
+  margin-left: -8%;
+  margin-top: -5%;
 }
 
-.about{
-  height:1000px;
-  background-color:white;
+.home{
+  margin-top: 25vh;
+  margin-left: 10vw;
+}
 
+
+#software{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 65px;
+  margin-top: 10%;
+  overflow: hidden;
 }
 #galvanize{
   color: #F7901E;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 65px;
 }
 #colorado{
   color: #F1FAEE;
-}
-.aboutbox{
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10vw;
-  border-right: 10%;
-  /*justify-content: center;*/
-}
-.profpic{
-  margin-left: -5vw;
-  height: 90vh;
-  width: 40vw;
-  background-image: url("../images/profile.jpg");
-  background-repeat: no-repeat;
-  m
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 65px;
 }
 
-.abouttext{
-  width: 60vw;
-  text-align: center;
-  margin-left: -25vw;
-  margin-top: -40vh;
+/*about section*/
+
+#about{
+  height:50vh;
+  background-color:pink;
 }
-/*.logo{
-  background-image: url('../images/Logo_white.jpg');
-}*/
+
+.aboutdiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: 110vh;
+  margin: auto;
+}
+.aboutTitle{
+  text-align: center;
+}
+.abouttext{
+  text-align: center;
+}
+#pic{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-image: url("../images/profile.jpg");
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 210px;
+}
+.aboutdiv{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110vh;
+}
