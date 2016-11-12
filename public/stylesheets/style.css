@@ -3,7 +3,7 @@ body {
   min-width: 100vw;
 }
 nav{
-  min-width: 100vw;
+  width: 100vw;
 }
 
 a {
@@ -36,7 +36,7 @@ h1 h3{
 
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 200vh;
+  height: 130vh;
   min-width: 110vw;
 
   margin-left: -8%;
@@ -81,11 +81,12 @@ h1 h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 113vh;
+  margin-top: 10vh;
 }
 .aboutTitle{
   font-family: 'Oswald', sans-serif;
   text-align: center;
+  margin-top: 105vh;
 }
 .abouttext{
   font-family: 'Oswald', sans-serif;
@@ -116,20 +117,23 @@ h1 h3{
   width: 10vw;
 }
 
-
+.links{
+  margin-top: 5vh;
+  margin-left: 19vw;
+}
 #city{
   clear: both;
-  margin-top: 20vh;
+  margin-top: 10vh;
   display: block;
   background-image: url("../images/denver.jpeg");
-  height: 50vh;
+  height: 70vh;
   width: 102vw;
 }
 
 /*projects section*/
 .projects{
 
- min-height: 100vh;
+ min-height: 90vh;
  width: 102vw;
 
 }
@@ -189,7 +193,7 @@ width: 75vw;
   font-family: 'Oswald', sans-serif;
   text-align: center;
   margin-left: 4vw;
-  margin-top: 4vh;
+  margin-top: 3vh;
 }
 
 .pythontext{
@@ -204,4 +208,38 @@ width: 75vw;
   text-align: center;
   margin-left: -4vw;
   margin-top: 4vh;
+}
+
+#summer{
+  clear: both;
+  margin-top: 20vh;
+  display: block;
+  background-image: url("../images/summer.jpg");
+  height: 90vh;
+  width: 102vw;
+}
+
+legend{
+  font-size: 39px;
+  text-align: center;
+}
+
+form{
+  margin-top: 5vh;
+}
+
+fieldset{
+  margin-right: 10vw;
+}
+
+.contactTitle{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.contactbox{
+
+ min-height: 70vh;
+ width: 102vw;
+
 }
