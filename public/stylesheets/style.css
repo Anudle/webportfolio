@@ -1,6 +1,6 @@
 body {
   font-family: 'Oswald', sans-serif;
-  min-width: 100vw;
+  width: 100vw;
 }
 nav{
   width: 100vw;
@@ -14,7 +14,7 @@ a {
 p{
   color: black;
 }
-h1 h3{
+h1{
   font-family: 'Oswald', sans-serif;
 }
 
@@ -23,7 +23,7 @@ h1 h3{
     background-image: url("../images/winter.jpg");
 
     width: 110vw;
-    min-height: 110vh;
+    height: 110vh;
 
     background-attachment: fixed;
     /*background-position: center;*/
@@ -81,12 +81,12 @@ h1 h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 .aboutTitle{
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  margin-top: 105vh;
+  margin-top: 110vh;
 }
 .abouttext{
   font-family: 'Oswald', sans-serif;
@@ -241,5 +241,40 @@ fieldset{
 
  min-height: 70vh;
  width: 102vw;
+}
 
+/*popup*/
+
+#nfl{
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+  height: 75vh;
+  width: 75vw;
+}
+#titlepop{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+#p-pop{
+  margin-top: 3vh;
+  text-align: center;
+
+}
+.weblink{
+  display: block;
+  width: 5vw;
+  margin: auto;
+}
+.nflPreview{
+  display: block;
+  margin: auto;
+  height: 40vh;
+  width: 40vw;
+  background-image: url("../images/nfl.png");
+}
+
+.nfl_close{
+margin-left: 65vw;
 }
