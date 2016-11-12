@@ -1,14 +1,13 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Anu Shrestha</a>
+            <a id='home' class="navbar-brand" href="#home">Anu Shrestha</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Conctact</a></li>
+                <li><a id='about' href="#about">About</a></li>
+                <li><a id='project' href="#project">Portfolio</a></li>
+                <li><a id='contact' href="#contact">Conctact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class='logo'>
@@ -32,22 +31,47 @@
 </div>
 
 
-
-
-
-<div id='about' class="container">
+<!-- About -->
+<div class="about container">
+  <h1 class='aboutTitle'> ABOUT </h1>
     <div class='aboutdiv'>
-        <h1 class='aboutTitle'> ABOUT </h1>
         <div id='pic'> </div>
         <div class='abouttext'> Hello! My name is Anu Shrestha. I am a software developer from Boulder Colorado. I studied coding at Galvanize where I learned HTML, CSS, JavaScript, Node.js, Express, Angular and PSQL. On top of that I have also been teaching myself Python, Django,
             and Java. </div>
-        <a href="#" id='resume' class="btn btn-primary centered">Resume</a>
+
+
+      <a class="btn btn-primary centered" href='../files/anushrestharesume.pdf' download id='resume'>Resume</a>
+
+    <div class="links">
+      <div class="row">
+
+
+
+        <a id='contactlink' href="#contactlink">
+          <div class="col-sm-4">
+            <i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i>
+          </div>
+        </a>
+
+        <a href='https://github.com/Anudle'>
+          <div class="col-sm-4">
+            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a href='https://www.linkedin.com/in/anudle'>
+          <div class="col-sm-4">
+            <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+          </div>
+        </a>
+      </div>
     </div>
 </div>
 
+</div>
 <div id="city"></div>
 
-<div class="projects container">
+<!-- Portfolio -->
+<div id='project' class="projects container">
     <h1 class='projectTitle'> Portfolio </h1>
     <div class="projectBox1 row">
         <div class='col-sm-4 container'>
@@ -69,8 +93,55 @@
         <div class='col-sm-4'></div>
         <div class="col-sm-4">
         <div class='proj4'></div>
-        <h3 class='readtext'>Galvanzie Reads</h3>
+        <h3 class='readtext'>Galvanize Reads</h3>
         </div>
     </div>
+</div>
+
+
+<div id="summer"></div>
+
+
+
+<!-- Contacts -->
+
+<h1 class='contactTitle'>Contact</h1>
+<div class="contactbox container">
+  <form class="form-horizontal">
+    <fieldset>
+      <div class="form-group">
+        <label for="First Name" class="col-lg-2 control-label"></label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="inputName" placeholder="First Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Last Name" class="col-lg-2 control-label"></label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Company" class="col-lg-2 control-label"></label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="inputLastName" placeholder="Company">
+        </div>
+      </div>
+      <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label"></label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+    </div>
+      <div class="form-group">
+        <label for="textArea" class="col-lg-2 control-label"></label>
+        <div class="col-lg-10">
+          <textarea class="form-control" rows="5" id="textArea"></textarea>
+          <span class="help-block">Love to hear from you!</span>
+        </div>
+      </div>
+
+    </fieldset>
+  </form>
 
 </div>
