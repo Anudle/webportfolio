@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/insult', function(req, res, next) {
-  res.render('insult', { title: 'Anu Shrestha' });
+  res.render('insult', {title: 'Anu Shrestha',
+                        heading: 'NFL Insult Generator'});
 });
 
 module.exports = router;
