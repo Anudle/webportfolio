@@ -131,11 +131,10 @@ h1{
 }
 
 /*projects section*/
-.projects{
 
+.projects{
  min-height: 90vh;
  width: 102vw;
-
 }
 
 .projectTitle{
@@ -159,27 +158,28 @@ width: 75vw;
 .proj1{
   height: 22vw;
   width: 25vw;
-  background-image: url('../images/shield.jpg');
+  content: url('../images/shield.jpg');
   background-repeat: no-repeat;
 }
 
 .proj2{
   height: 22vw;
   width: 25vw;
-  background-image: url('../images/scurrylogo.gif');
+  content: url('../images/scurrylogo.gif');
 }
 
 .proj3{
-  height: 18vw;
-  width: 25vw;
-  background-image: url('../images/python.png');
+  margin-left: -2vw;
+  height: 22vw;
+  width: 20vw;
+  content: url('../images/python.png');
   background-repeat: no-repeat;
 }
 
 .proj4{
-  height: 18vw;
-  width: 25vw;
-  background-image: url('../images/logo.png');
+  height: 22vw;
+  width: 20vw;
+  content: url('../images/logo.png');
   background-repeat: no-repeat;
 }
 
@@ -199,14 +199,14 @@ width: 75vw;
 .pythontext{
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  margin-left: -4vw;
+  margin-left: -5vw;
   margin-top: 4vh;
 }
 
 .readtext{
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  margin-left: -4vw;
+  margin-left: -1vw;
   margin-top: 4vh;
 }
 
@@ -249,13 +249,34 @@ fieldset{
   overflow: hidden;
   background-color: white;
   border-radius: 15px;
-  height: 75vh;
+  height: 85vh;
+  width: 75vw;
+}
+#scurry{
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+  height: 85vh;
+  width: 75vw;
+}
+#python{
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+  height: 85vh;
+  width: 75vw;
+}
+#book{
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+  height: 85vh;
   width: 75vw;
 }
 #titlepop{
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+
 }
 #p-pop{
   margin-top: 3vh;
@@ -270,11 +291,25 @@ fieldset{
 .nflPreview{
   display: block;
   margin: auto;
-  height: 40vh;
+  height: 45vh;
   width: 40vw;
   background-image: url("../images/nfl.png");
 }
-
-.nfl_close{
+.scurryPreview{
+  display: block;
+  margin: auto;
+  height: 45vh;
+  width: 40vw;
+  background-image: url("../images/scurry.png");
+}
+.pythonPreview{
+  display: block;
+  margin: auto;
+  height: 45vh;
+  width: 40vw;
+  background-image: url("../images/scurry.png");
+}
+.book_close, .python_close, .scurry_close, .nfl_close{
 margin-left: 65vw;
+border-radius: 10px;
 }

@@ -1,4 +1,4 @@
-
+//navbar
 $("#about").click(function() {
     $('html, body').animate({
         scrollTop: $(".aboutTitle").offset().top-70
@@ -28,14 +28,25 @@ $("#home").click(function() {
     }, 2000);
 });
 
+
+//pop ups
 $(document).ready(function() {
-
-  // Initialize the plugin
   $('#nfl').popup();
+});
 
+$(document).ready(function() {
+  $('#scurry').popup();
+});
+
+$(document).ready(function() {
+  $('#python').popup();
+});
+$(document).ready(function() {
+  $('#book').popup();
 });
 
 
+//scrolling images
 $("#imagebox > div:gt(0)").hide();
 
 setInterval(function() {
@@ -45,4 +56,48 @@ setInterval(function() {
     .fadeIn(2000)
     .end()
     .appendTo('#imagebox');
+},  9000);
+
+$("#scurryimagebox > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#scurryimagebox > div:first')
+    .fadeOut(0)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#scurryimagebox');
+},  9000);
+
+$("#scurryimagebox > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#scurryimagebox > div:first')
+    .fadeOut(0)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#scurryimagebox');
+},  9000);
+
+$("#arcadeimagebox > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#pythonimagebox > div:first')
+    .fadeOut(0)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#pythonimagebox');
+},  9000);
+
+$("#bookimagebox > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#bookimagebox > div:first')
+    .fadeOut(0)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#bookimagebox');
 },  9000);
