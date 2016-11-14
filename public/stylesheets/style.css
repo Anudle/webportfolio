@@ -6,6 +6,12 @@ nav{
   width: 100vw;
 }
 
+.logo{
+  content: url('../images/star.png');
+  margin-right: 2vw;
+  margin-top: 1vh;
+}
+
 a {
   color: #00B7FF;
 }
