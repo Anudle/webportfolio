@@ -115,13 +115,15 @@ h1{
 }
 
 #resume{
-  margin-top: 4vh;
+  margin-top: 5vh;
   margin-bottom: 5vh;
-  margin-left: 40vw;
   margin-right: auto;
+  margin-left: auto;
   width: 10vw;
 }
-
+.resume-row{
+  text-align: center;
+}
 .links{
   clear: both;
   text-align: center;
