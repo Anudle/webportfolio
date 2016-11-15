@@ -92,5 +92,6 @@ setInterval(function() {
     .appendTo('#bookimagebox');
 },  9000);
 
+
+
 // Contact
-$('.contact-form').submit(function(e))

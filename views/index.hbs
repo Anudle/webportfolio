@@ -219,44 +219,37 @@
 
 <h1 class='contactTitle'>Contact</h1>
 <div class="contactbox container">
-  <form class="contact-form form-horizontal">
+  <form action="https://formspree.io/anushrestha007@gmail.com"
+        method="POST" class="form-horizontal">
     <fieldset>
       <div class="form-group">
-        <label for="First Name" class="col-lg-2 control-label"></label>
+        <label for="Name" class="col-lg-2 control-label"></label>
         <div class="col-lg-10">
-          <input type="text" class="form-control" id="inputName" placeholder="First Name">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Last Name" class="col-lg-2 control-label"></label>
-        <div class="col-lg-10">
-          <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+          <input type="text" class="form-control" id="inputName"  name='name' placeholder=" Name">
         </div>
       </div>
       <div class="form-group">
         <label for="Company" class="col-lg-2 control-label"></label>
         <div class="col-lg-10">
-          <input type="text" class="form-control" id="inputLastName" placeholder="Company">
+          <input name='company' type="text" class="form-control" id="inputLastName" placeholder="Company">
         </div>
       </div>
       <div class="form-group">
       <label for="inputEmail" class="col-lg-2 control-label"></label>
       <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+        <input type="email" name="_replyto" class="form-control" id="inputEmail" placeholder="Email">
       </div>
     </div>
       <div class="form-group">
         <label for="textArea" class="col-lg-2 control-label"></label>
         <div class="col-lg-10">
-          <textarea class="form-control" rows="5" id="textArea"></textarea>
+          <textarea name='message' class="form-control" rows="5" id="textArea"></textarea>
           <span class="help-block">Love to hear from you!</span>
         </div>
       </div>
       <div class="col-lg-10 col-lg-offset-2">
-     <button type="submit" class="btn btn-primary">Submit</button>
+     <button type="submit" value='Send' class="btn btn-primary">Submit</button>
    </div>
 
     </fieldset>
   </form>
-
-</div>
