@@ -69,16 +69,6 @@ setInterval(function() {
     .appendTo('#scurryimagebox');
 },  9000);
 
-$("#scurryimagebox > div:gt(0)").hide();
-
-setInterval(function() {
-  $('#scurryimagebox > div:first')
-    .fadeOut(0)
-    .next()
-    .fadeIn(2000)
-    .end()
-    .appendTo('#scurryimagebox');
-},  9000);
 
 $("#arcadeimagebox > div:gt(0)").hide();
 
@@ -101,3 +91,7 @@ setInterval(function() {
     .end()
     .appendTo('#bookimagebox');
 },  9000);
+
+
+
+// Contact
