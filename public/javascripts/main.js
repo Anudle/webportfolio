@@ -1,7 +1,7 @@
 //navbar
 $("#about").click(function() {
     $('html, body').animate({
-        scrollTop: $(".aboutTitle").offset().top-70
+        scrollTop: $(".aboutTitle").offset().top-78
     }, 2000);
 });
 $("#project").click(function() {
@@ -24,7 +24,7 @@ $("#contactlink").click(function() {
 
 $("#home").click(function() {
     $('html, body').animate({
-        scrollTop: $(".home").offset().top-60
+        scrollTop: $(".home").offset().top-100
     }, 2000);
 });
 
@@ -91,7 +91,3 @@ setInterval(function() {
     .end()
     .appendTo('#bookimagebox');
 },  9000);
-
-
-
-// Contact
