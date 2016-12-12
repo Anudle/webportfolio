@@ -44,6 +44,9 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('#book').popup();
 });
+$(document).ready(function() {
+  $('#cap').popup();
+});
 
 
 //scrolling images
@@ -90,4 +93,16 @@ setInterval(function() {
     .fadeIn(2000)
     .end()
     .appendTo('#bookimagebox');
+},  9000);
+
+
+$("#capimagebox > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#capimagebox > div:first')
+    .fadeOut(0)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#capimagebox');
 },  9000);

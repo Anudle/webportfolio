@@ -143,7 +143,7 @@ h1{
 /*projects section*/
 
 .projects{
- min-height: 90vh;
+ min-height: 120vh;
  width: 102vw;
 }
 
@@ -190,6 +190,14 @@ width: 75vw;
   height: 22vw;
   width: 20vw;
   content: url('../images/logo.png');
+  background-repeat: no-repeat;
+}
+
+.proj5{
+  margin-left: 7vw;
+  height: 22vw;
+  width: 20vw;
+  content: url('../images/cap.png');
   background-repeat: no-repeat;
 }
 
@@ -284,6 +292,13 @@ fieldset{
   height: 85vh;
   width: 75vw;
 }
+#cap{
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+  height: 85vh;
+  width: 75vw;
+}
 #titlepop{
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -320,7 +335,14 @@ fieldset{
   width: 40vw;
   background-image: url("../images/scurry.png");
 }
-.book_close, .python_close, .scurry_close, .nfl_close{
+.capPreview{
+  display: block;
+  margin: auto;
+  height: 45vh;
+  width: 40vw;
+  background-image: url("../images/cap.png");
+}
+.cap_close, .book_close, .python_close, .scurry_close, .nfl_close{
 margin-left: 65vw;
 border-radius: 10px;
 }
