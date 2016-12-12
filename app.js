@@ -10,6 +10,11 @@ var users = require('./routes/users');
 
 var app = express();
 
+var http = require("http");
+setInterval(function() {
+    http.get("https://anuportfolio.herokuapp.com/");
+}, 300000); // every 5 minutes (300000)
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
