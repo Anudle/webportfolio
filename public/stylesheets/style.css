@@ -309,6 +309,10 @@ fieldset{
   text-align: center;
 
 }
+.git{
+  margin-left: 5vw;
+  color: #008CBA;
+}
 .weblink{
   display: block;
   width: 5vw;
@@ -343,6 +347,7 @@ fieldset{
   background-image: url("../images/cap.png");
 }
 .cap_close, .book_close, .python_close, .scurry_close, .nfl_close{
-margin-left: 65vw;
+margin-left: 55vw;
+margin-bottom: 2vh;
 border-radius: 10px;
 }
