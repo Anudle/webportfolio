@@ -200,7 +200,10 @@ width: 75vw;
   content: url('../images/cap.png');
   background-repeat: no-repeat;
 }
-
+#captext{
+  margin-top: -1vh;
+  margin-bottom: 10vh;
+}
 .porttext{
   font-family: 'Oswald', sans-serif;
   text-align: center;
